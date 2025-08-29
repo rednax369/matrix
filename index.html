@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix - Trinity & Neo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="matrix-bg">
+        <div class="matrix-rain"></div>
+    </div>
+    
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">MATRIX</div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#characters">Personagens</a></li>
+                <li><a href="#story">História</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="TRINITY & NEO">TRINITY & NEO</h1>
+                <p class="hero-subtitle">"Escolha, a escolha é uma ilusão criada entre aqueles que têm poder e aqueles que não têm."</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('characters')">Descobrir</button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('story')">História</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="character-portrait trinity">
+                    <div class="portrait-frame"></div>
+                </div>
+                <div class="character-portrait neo">
+                    <div class="portrait-frame"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="characters" class="characters">
+            <h2 class="section-title">Os Escolhidos</h2>
+            <div class="character-grid">
+                <div class="character-card trinity-card">
+                    <div class="card-header">
+                        <h3>Trinity</h3>
+                        <div class="status">ONLINE</div>
+                    </div>
+                    <div class="card-content">
+                        <p>"Dodge this."</p>
+                        <ul class="abilities">
+                            <li>Hacker Elite</li>
+                            <li>Especialista em Combate</li>
+                            <li>Líder da Resistência</li>
+                            <li>Protege o Escolhido</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <span class="code">TRINITY.exe</span>
+                    </div>
+                </div>
+
+                <div class="character-card neo-card">
+                    <div class="card-header">
+                        <h3>Neo</h3>
+                        <div class="status">THE ONE</div>
+                    </div>
+                    <div class="card-content">
+                        <p>"Eu sou o Escolhido."</p>
+                        <ul class="abilities">
+                            <li>O Escolhido</li>
+                            <li>Manipulação da Matrix</li>
+                            <li>Voo e Telecinese</li>
+                            <li>Destino da Humanidade</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <span class="code">NEO.exe</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="story" class="story">
+            <h2 class="section-title">A Profecia</h2>
+            <div class="story-content">
+                <div class="story-text">
+                    <p>Em um mundo onde a realidade é uma simulação criada por máquinas, dois guerreiros emergem como esperança da humanidade.</p>
+                    <p>Trinity, a hacker mais perigosa da resistência, e Neo, o homem que pode ser o Escolhido da profecia.</p>
+                    <p>Juntos, eles desafiam as leis da Matrix e lutam pela liberdade da humanidade.</p>
+                </div>
+                <div class="story-quotes">
+                    <blockquote class="quote">
+                        "Eu te disse que eu não posso te dizer o que é a Matrix. Você tem que ver por si mesmo."
+                        <cite>- Morpheus</cite>
+                    </blockquote>
+                    <blockquote class="quote">
+                        "A Matrix tem você. Siga o coelho branco."
+                        <cite>- Trinity</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <h2 class="section-title">Memórias da Matrix</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-character="trinity">
+                    <div class="gallery-overlay">
+                        <h3>Trinity</h3>
+                        <p>Hacker Elite</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-character="neo">
+                    <div class="gallery-overlay">
+                        <h3>Neo</h3>
+                        <p>O Escolhido</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-character="matrix">
+                    <div class="gallery-overlay">
+                        <h3>Matrix</h3>
+                        <p>O Mundo Virtual</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-character="resistance">
+                    <div class="gallery-overlay">
+                        <h3>Resistência</h3>
+                        <p>Luta pela Liberdade</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Matrix - Trinity & Neo. "Bem-vindo ao mundo real."</p>
+            <div class="footer-links">
+                <a href="#" class="footer-link">Sobre</a>
+                <a href="#" class="footer-link">Contato</a>
+                <a href="#" class="footer-link">Privacidade</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
